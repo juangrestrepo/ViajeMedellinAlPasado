@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: cf9bfe4328f6fb94f923a536f92b0b43
+guid: f5a8d9a85c6a6564582d809f1311f5ae
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 7871801213744728504
+    second: Entre arco|Entre arcoAction
   externalObjects: {}
   materials:
     materialImportMode: 2
