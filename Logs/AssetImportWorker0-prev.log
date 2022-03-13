@@ -15,11 +15,11 @@ C:/Users/user/Documents/Viaje al Medellín del Pasado
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1174
+1033
 Successfully changed project path to: C:/Users/user/Documents/Viaje al Medellín del Pasado
 C:/Users/user/Documents/Viaje al Medellín del Pasado
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002436 seconds.
+Registered in 0.002175 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  0.738 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1059ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (773ms)
-			LoadAssemblies (162ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (220ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (179ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005716 seconds.
+Registered in 0.005082 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.529 seconds
+- Completed reload, in  1.124 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1529ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (200ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1215ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (415ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.4 MB.
-System memory in use after: 87.5 MB.
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1955.
-Total: 3.009000 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.738500 ms  DeleteObjects: 0.042900 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.925800 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.626800 ms  DeleteObjects: 0.030800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,7 +133,391 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Edificio Ferrocarril/Estacion de tren.blend
   artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae01db612d739cf038f9623cbe29114') in 13.512785 seconds 
-  Import took 13.552269 seconds .
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb64d72374d9b3bf70d9ec3db602ac8') in 13.834101 seconds 
+  Import took 13.867669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.417362 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e50085e947132cba6209e46bc5bef7') in 12.569567 seconds 
+  Import took 12.631355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.014202 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3ee3b1f50b231a87b38c5ec8dcca13') in 13.606930 seconds 
+  Import took 13.672804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.791110 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226d83cfb6c256030fab873d44e7aac4') in 13.035106 seconds 
+  Import took 13.072159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.838425 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ca851c20332b934aaedb2f0585d06b') in 17.517281 seconds 
+  Import took 17.564973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.931980 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4efb14c65f401826ecdf82bcea2e5dc') in 12.401312 seconds 
+  Import took 12.431047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.971081 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1753a2663fa43b98f689ae532f2969') in 12.244017 seconds 
+  Import took 12.278541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.304 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1305ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1117ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2002.
+Total: 2.765600 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.068100 ms MarkObjects: 2.476700 ms  DeleteObjects: 0.028900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178.499506 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73badd60bbcf190682102bb8a236bb8e') in 14.794454 seconds 
+  Import took 14.833783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.088707 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a4f039f7709bc20f954fe00c7d7f81') in 15.437323 seconds 
+  Import took 15.481225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.513325 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b296144d2694fd2b86f0badcbb52001') in 14.792781 seconds 
+  Import took 14.832193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.706811 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cbf9e6a6ccaaee7197cfaa97536f00') in 15.808831 seconds 
+  Import took 15.857829 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005122 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1231ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 2.760600 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.495100 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.636 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1637ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1281ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 3.020700 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.060900 ms MarkObjects: 2.741800 ms  DeleteObjects: 0.025900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 551.307147 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ace203dd5411d0351f1474c967abecf') in 12.263452 seconds 
+  Import took 12.290935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1008ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2010.
+Total: 2.999800 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.057100 ms MarkObjects: 2.742300 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 193.069193 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a00e2a2614dc5bb34a02d8500f023') in 38.522860 seconds 
+  Import took 38.592105 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3720ms)
+		BeginReloadAssembly (323ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (3213ms)
+			LoadAssemblies (293ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1511ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (260ms)
+			SetupLoadedEditorAssemblies (666ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.3 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 6.071500 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.104200 ms MarkObjects: 5.609500 ms  DeleteObjects: 0.037300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.338217 seconds.
+  path: Assets/Edificio Ferrocarril/Estacion de tren.blend
+  artifactKey: Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Edificio Ferrocarril/Estacion de tren.blend using Guid(abbe2b69701243144baaae34b3a27728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bf58a5e86de2ddf49ebcf776856e43') in 12.577770 seconds 
+  Import took 12.604605 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
